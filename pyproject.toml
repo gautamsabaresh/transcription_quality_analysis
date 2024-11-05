@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "transcription-quality-comparator"
+version = "0.1.0"
+description = ""
+authors = ["Gautam Sabaresh"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+streamlit = "^1.39.0"
+jiwer = "^3.0.4"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+plotly = "^5.24.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
